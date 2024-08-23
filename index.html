@@ -29,17 +29,21 @@
               colors: {
                 clifford: '#da373d',
                 primary: '#ABEF5F',
+                t-prm: '#212121',
+                linear: 'linear-gradient(0deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%)',
+                b-color: '#F4F4F4',
               }
             }
           }
         }
       </script>
 </head>
-<body class="font-manrope">
+<body class="font-manrope bg-[#F4F4F4]">
     <!-- Header -->
-     <header class="container mx-auto pt-[30px]">
+     <div class="bg-white">
+      <header class="md:container mx-auto pt-[30px] px-[20px] pb-[100px]">
         <!-- navabr -->
-     <div class="navbar bg-base-100">
+        <nav class="navbar bg-base-100">
         <div class="navbar-start">
           <button class="p-[10px] mr-2 bg-[#ABEF5F] rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
             <path d="M12.0068 2.05981L1.00318 13.0562" stroke="#1C1C1C" stroke-width="1.5" stroke-linecap="round"/>
@@ -72,7 +76,7 @@
                       d="M4 6h16M4 12h8m-8 6h16" />
                   </svg>
                 </div>
-                <ul
+                <!-- <ul
                   tabindex="0"
                   class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                   <li><a>Home</a></li>
@@ -80,9 +84,9 @@
                   <li><a>Portfolio</a></li>
                   <li><a>Blog</a></li>
                   <li><a>Contact Us</a></li>
-                </ul>
+                </ul> -->
             </div>
-            <div class="flex gap-4">
+            <div class=" hidden lg:flex gap-4">
                 <div class="p-[10px] bg-[#FFF] rounded-full border-2 border-[#E9E9E9]">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
                         <path d="M17.5078 17.5098L22.0063 22.0113" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -98,7 +102,8 @@
                         <path d="M17.5068 22.031C18.3352 22.0313 19.007 21.3599 19.0073 20.5315C19.0076 19.7031 18.3362 19.0313 17.5078 19.031C16.6794 19.0307 16.0076 19.7021 16.0073 20.5305C16.007 21.3589 16.6784 22.0307 17.5068 22.031Z" stroke="#737373" stroke-width="1.5"/>
                       </svg>
                 </div>
-                <div class="btn bg-primary rounded-full px-5 px-3">
+                <!-- button -->
+                <div class="btn bg-[#ABEF5F] rounded-full px-5 px-3 ">
                     <a class="font-bold text-[#1C1C1C]">Book Consultant</a>
                     <div class="p-[10px] bg-[#1C1C1C] rounded-full">
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -110,8 +115,39 @@
             </div>
           
         </div>
-      </div>
+        </nav>
+        <!-- hero section -->
+         <section>
+          <div class="flex flex-col justify-center items-center ">
+            <div class="justify-items-center ">
+              <img src="assets/banner.png" alt="house-image">
+            </div>
+            <!-- hero content -->
+             <div class="text-center">
+              <h1 class="text-[28px] font-extrabold text-[#212121]  lg:text-[64px]  ">A barn house of this design has a striking appearance</h1>
+              <p class="text-[16px] mt-[24px]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural light.</p>
+
+              <div class="btn bg-[#ABEF5F80] rounded-full text-[20px] mt-[32px] border-2 border-[#ABEF5F] w-full lg:w-[206px]">
+                <a class="font-bold text-[#1C1C1C]">View Details</a>
+                    <div class="p-[10px] bg-[#ABEF5F] rounded-full">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <path d="M12.0029 1.74121L0.999271 12.7375" stroke="#1C1C1C" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M6.00289 0.87079C6.00289 0.87079 11.6365 0.397774 12.4913 1.25297C13.3459 2.10817 12.869 7.74156 12.869 7.74156" stroke="#1C1C1C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                </div>
+             </div>
+          </div>
+         </section>
      </header>
+     </div>
     <!-- Main section -->
+    <main>
+      <div class="md:container mx-auto px-[20px]">
+        <!-- About Us -->
+        <section>
+          <h1>hello</h1>
+        </section>
+      </div>
+    </main>
 </body>
 </html>
